@@ -1,0 +1,61 @@
+# Ghostty Config — Evergreen UI + JetBrains Mono
+# -------------------------------------------------
+
+# Font
+font-family = JetBrains Mono
+font-size = 14
+font-style = Regular
+font-style-bold = Bold
+font-style-italic = Italic
+font-style-bold-italic = Bold Italic
+font-thicken = true
+
+# Window
+background-opacity = 0.92
+background-blur-radius = 100
+window-padding-x = 12
+window-padding-y = 10
+
+# Evergreen UI color palette
+# Background & foreground
+background = #10261E
+foreground = #DCF2EA
+
+# Cursor
+cursor-color = #52BD95
+cursor-text = #10261E
+cursor-style = block
+cursor-style-blink = true
+
+# Selection
+selection-background = #317159
+selection-foreground = #DCF2EA
+
+# ANSI colors — Normal (0-7)
+palette = 0=#10261E
+palette = 1=#D14343
+palette = 2=#52BD95
+palette = 3=#FFB020
+palette = 4=#429777
+palette = 5=#317159
+palette = 6=#0F5156
+palette = 7=#BAE5D5
+
+# ANSI colors — Bright (8-15)
+palette = 8=#214C3C
+palette = 9=#EE9191
+palette = 10=#97D7BF
+palette = 11=#F8E3DA
+palette = 12=#75CAAA
+palette = 13=#DCF2EA
+palette = 14=#D3F5F7
+palette = 15=#FFFFFF
+
+# Shell integration
+shell-integration = detect
+shell-integration-features = cursor,sudo,title
+
+# Misc
+confirm-close-surface = false
+mouse-hide-while-typing = true
+copy-on-select = false

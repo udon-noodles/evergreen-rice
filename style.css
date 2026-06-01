@@ -1,0 +1,41 @@
+/* Waybar — Evergreen Green Theme */
+
+* {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 13px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* Hide the bar background entirely — only the pill is visible */
+.modules-left,
+.modules-center,
+.modules-right {
+    background: transparent;
+}
+
+#clock {
+background-color: #10261E;
+color: #DCF2EA;
+border: 1px solid #317159;
+border-radius: 10px;
+padding: 6px 20px;
+min-width: 90px;
+
+/* Blur behind pill via GTK layershell — requires compositor support */
+/* background-color: rgba(16, 38, 30, 0.85); */
+}
+
+#clock:hover {
+background-color: #214C3C;
+border-color: #52BD95;
+color: #F5FBF8;
+transition: all 0.2s ease;
+}
