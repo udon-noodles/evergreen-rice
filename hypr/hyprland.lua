@@ -16,13 +16,11 @@
 
 -- See https://wiki.hypr.land/Configuring/Basics/Monitors/
 hl.monitor({
-    output   = "HDMI-A-1",
+    output   = "",
     mode     = "preferred",
     position = "auto",
     scale    = "auto",
 })
-
-hl.monitor({ output = "eDP-1", disabled = true })
 
 ---------------------
 ---- MY PROGRAMS ----
@@ -46,7 +44,7 @@ local lockscreen  = "hyprlock"
 hl.on("hyprland.start", function ()
 --   hl.exec_cmd(terminal)
 --   hl.exec_cmd("nm-applet")
-   hl.exec_cmd("waybar &  swaybg -i ~/Pictures/Wallpapers/trees.jpg -m fill")
+   hl.exec_cmd("waybar &  swaybg -i ~/evergreen-rice/hypr/assets/trees.jpg -m fill")
  end)
 
 

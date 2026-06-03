@@ -7,9 +7,15 @@
   "margin-left": 8,
   "margin-right": 8,
 
-  "modules-left": [],
+  "modules-left": ["custom/logout"],
   "modules-center": ["clock"],
   "modules-right": [],
+
+  "custom/logout": {
+    "format": "⏻",
+    "tooltip": false,
+    "on-click": "wlogout"
+  },
 
   "clock": {
     "format": " {:%H:%M} ",

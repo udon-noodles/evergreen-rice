@@ -39,3 +39,19 @@ border-color: #52BD95;
 color: #F5FBF8;
 transition: all 0.2s ease;
 }
+
+#custom-logout {
+background-color: #10261E;
+color: #DCF2EA;
+border: 1px solid #317159;
+border-radius: 10px;
+padding: 6px 14px;
+min-width: 40px;
+}
+
+#custom-logout:hover {
+background-color: #214C3C;
+border-color: #52BD95;
+color: #F5FBF8;
+transition: all 0.2s ease;
+}
