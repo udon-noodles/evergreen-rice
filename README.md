@@ -6,3 +6,7 @@ A Cozy Green hyprland rice.
 git clone the repo, then symlink the folders to .config
 
 enjoy!
+
+deps:
+
+ghostty, Hyprland-git, rofi, waybar, wlogout, Jetbrains Mono and Mono Nerd
