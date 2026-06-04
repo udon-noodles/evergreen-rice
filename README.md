@@ -3,10 +3,11 @@
 
 A Cozy Green hyprland rice.
 
-git clone the repo, then symlink the folders to .config
+git clone the repo to your ~, then symlink the folders to .config after the deps are all installed
 
 enjoy!
 
 deps:
 
 ghostty, Hyprland-git and hyprlock, rofi, waybar, wlogout, Jetbrains Mono and Mono Nerd
+
