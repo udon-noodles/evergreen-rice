@@ -9,4 +9,4 @@ enjoy!
 
 deps:
 
-ghostty, Hyprland-git, rofi, waybar, wlogout, Jetbrains Mono and Mono Nerd
+ghostty, Hyprland-git and hyprlock, rofi, waybar, wlogout, Jetbrains Mono and Mono Nerd
